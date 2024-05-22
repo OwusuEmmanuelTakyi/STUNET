@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function PostScreen() {
+export default function LearnScreen() {
   return (
     <View>
-      <Text>PostScreen</Text>
+      <Text>LearnScreen</Text>
     </View>
   )
 }
