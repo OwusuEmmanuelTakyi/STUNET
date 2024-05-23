@@ -9,7 +9,7 @@ WebBrowser.maybeCompleteAuthSession();
 export default function LoginScreen() {
     useWarmUpBrowser();
 
-    const { startOAuthFlow } = useOAuth({ strategy: "oauth_google" });
+    const { startOAuthFlow } = useOAuth({ strategy: "oauth_google" } , { strategy: "oauth_tiktok" });
     
     const onPress = React.useCallback(async () => {
         try {
