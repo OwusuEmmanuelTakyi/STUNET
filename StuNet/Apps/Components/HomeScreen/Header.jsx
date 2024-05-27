@@ -5,8 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 export default function Header() {
     const {user}=useUser();
-  return (  
-    <View className = " items-center gap-1">
+  return (   
+    <View className = " items-center gap-1 ">
         <View className="flex flex-row mt-{-10px} ">
       <Image source = {{uri:user?.imageUrl}}
       className = "rounded-full w-12 h-12"
